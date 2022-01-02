@@ -9,6 +9,8 @@ jobs:
         with:
           node-version: 14
       - run: node -v
+      - name: Install node_modules
+        run: yarn
       - name: Build the project
         run: yarn build
       - name: Setup Finish
