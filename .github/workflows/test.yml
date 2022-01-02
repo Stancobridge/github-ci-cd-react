@@ -10,4 +10,4 @@ jobs:
           node-version: 14
       - run: node -v
       - name: Build the project
-        run: npm build
+        run: npm run build
