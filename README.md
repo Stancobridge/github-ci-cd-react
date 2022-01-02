@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![My Firt Github Action](https://github.com/Stancobridge/github-ci-cd-react/actions/workflows/test.yml/badge.svg)](https://github.com/Stancobridge/github-ci-cd-react/actions/workflows/test.yml)
 ## Available Scripts
 
 In the project directory, you can run:
