@@ -1,13 +1,9 @@
 name: My Firt Github Action
 on: [push]
 jobs:
-  print-hello-world:
+  buil-app:
     runs-on: ubuntu-20.04
     steps:
-      - run: echo "hello world!!!!!!"
-      - run: echo "this is step number 2"
-  print-hello-world2:
-    runs-on: ubuntu-20.04
-    steps:
-      - run: echo "hello world!!!!!!"
-      - run: echo "this is step number 2"
+      - uses: actions/checkout@v2
+      - run: tree
+
